@@ -1,0 +1,103 @@
+{
+  "classe": "GL",
+  "repertoires": [
+    {
+      "header": { "name": "Cours", "icon": "BookIcon" },
+      "contents": [
+        { "count": 280, "name": "Modules" },
+        { "count": 180, "name": "Matières" },
+        { "count": 70, "name": "Enseignants" }
+      ]
+    },
+    {
+      "header": { "name": "TD & TP", "icon": "TDIcon" },
+      "contents": [
+        { "count": 510, "name": "Exercices" },
+        { "count": 230, "name": "Corrections" },
+        { "count": 95, "name": "Travaux Pratiques" }
+      ]
+    },
+    {
+      "header": { "name": "Examens", "icon": "FolderIcon" },
+      "contents": [
+        { "count": 200, "name": "Sujets d'examens" },
+        { "count": 160, "name": "Corrections" },
+        { "count": 80, "name": "Livres de référence" }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Conception Orientée Objet avec UML",
+      "type": "cours",
+      "annee": 2025,
+      "liked": true
+    },
+    {
+      "title": "Ingénierie logicielle et méthodologies agiles",
+      "type": "livre",
+      "annee": 2024,
+      "liked": false
+    },
+    {
+      "title": "Tests Unitaires et Intégration Continue",
+      "type": "cours",
+      "annee": 2023,
+      "liked": true
+    },
+    {
+      "title": "Architecture MVC et Frameworks modernes",
+      "type": "cours",
+      "annee": 2022,
+      "liked": false
+    },
+    {
+      "title": "Sécurité et Qualité logicielle",
+      "type": "cours",
+      "annee": 2025,
+      "liked": false
+    }
+  ],
+  "projets": {
+    "tutores": [
+      {
+        "name": "Gestion des Notes Étudiantes",
+        "auteur": "Yao Stéphane",
+        "domaine": "Développement Web",
+        "url": "/src/assets/img/notes_app.png"
+      },
+      {
+        "name": "Plateforme de Suivi de Projets Étudiants",
+        "auteur": "Kouakou L.",
+        "domaine": "Application Fullstack",
+        "url": "/src/assets/img/tracker.png"
+      },
+      {
+        "name": "Système de Réservation de Salles",
+        "auteur": "Tra Bi S.",
+        "domaine": "Développement Backend",
+        "url": "/src/assets/img/reservation.png"
+      }
+    ],
+    "opensource": [
+      {
+        "name": "EduTrack Open",
+        "auteur": "Communauté GL 3A",
+        "domaine": "Gestion de projets éducatifs",
+        "url": "/src/assets/img/edutrack.png"
+      },
+      {
+        "name": "MicraDocs",
+        "auteur": "Collectif MicraV",
+        "domaine": "Documentation collaborative",
+        "url": "/src/assets/img/micradocs.png"
+      },
+      {
+        "name": "OpenLibrary API",
+        "auteur": "Étudiants GL & ISI",
+        "domaine": "Bibliothèque open source",
+        "url": "/src/assets/img/openlibrary.png"
+      }
+    ]
+  }
+}

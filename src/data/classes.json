@@ -1,0 +1,11 @@
+{
+  "classes": [
+    {
+      "id": "isi",
+      "name": "Informatique et Systèmes Intelligents",
+      "file": "isi.json"
+    },
+    { "id": "rt", "name": "Réseaux et Télécoms", "file": "rt.json" },
+    { "id": "gl", "name": "Génie Logiciel", "file": "gl.json" }
+  ]
+}

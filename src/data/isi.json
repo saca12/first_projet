@@ -1,0 +1,173 @@
+{
+  "classe": "ISI",
+  "repertoires": [
+    {
+      "header": { "name": "Cours", "icon": "BookIcon" },
+      "contents": [
+        { "count": 320, "name": "Modules" },
+        { "count": 210, "name": "Matières" },
+        { "count": 80, "name": "Enseignants" }
+      ]
+    },
+    {
+      "header": { "name": "TD & TP", "icon": "TDIcon" },
+      "contents": [
+        { "count": 620, "name": "Exercices" },
+        { "count": 300, "name": "Corrections" },
+        { "count": 120, "name": "Travaux Pratiques" }
+      ]
+    },
+    {
+      "header": { "name": "Examens", "icon": "FolderIcon" },
+      "contents": [
+        { "count": 250, "name": "Sujets de devoir" },
+        { "count": 180, "name": "Corrections" },
+        { "count": 95, "name": "Livres de référence" }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Programmation C++ avancée",
+      "type": "cours",
+      "annee": 2025,
+      "liked": true
+    },
+    {
+      "title": "Développement Mobile avec Kotlin",
+      "type": "livre",
+      "annee": 2024,
+      "liked": false
+    },
+    {
+      "title": "Systèmes d'exploitation UNIX",
+      "type": "cours",
+      "annee": 2023,
+      "liked": true
+    },
+    {
+      "title": "Algorithmique et structures de données",
+      "type": "cours",
+      "annee": 2022,
+      "liked": false
+    },
+    {
+      "title": "Analyse de données avec Python",
+      "type": "cours",
+      "annee": 2025,
+      "liked": true
+    }
+  ],
+  "projets": {
+    "tutores": [
+      {
+        "name": "E-Santé 4.0",
+        "auteur": "Ouattara Mariam",
+        "domaine": "Intelligence Artificielle",
+        "url": "/src/assets/img/esante.png"
+      },
+      {
+        "name": "MaMoyenne",
+        "auteur": "Kouadio Armel",
+        "domaine": "Développement Mobile",
+        "url": "/src/assets/img/mamoyenne.png"
+      }
+    ],
+    "opensource": [
+      {
+        "name": "MicraVision",
+        "auteur": "Équipe ISI Dev",
+        "domaine": "Éducation",
+        "url": "/src/assets/img/micravision.png"
+      }
+    ]
+  },
+
+  "bibliotheque": {
+    "cours": [
+      {
+        "title": "Bases de données relationnelles",
+        "auteur": "Dr. Koffi",
+        "annee": 2023,
+        "type": "cours",
+        "liked": false
+      },
+      {
+        "title": "Programmation orientée objet en Java",
+        "auteur": "Mme N'Guessan",
+        "annee": 2024,
+        "type": "cours",
+        "liked": true
+      },
+      {
+        "title": "Systèmes d’exploitation Linux",
+        "auteur": "M. Kouadio",
+        "annee": 2022,
+        "type": "cours",
+        "liked": false
+      }
+    ],
+    "tdtp": [
+      {
+        "title": "TP - Réseaux locaux sous Packet Tracer",
+        "auteur": "M. Assi",
+        "annee": 2023,
+        "type": "tp",
+        "liked": false
+      },
+      {
+        "title": "TD - Programmation C (structures et pointeurs)",
+        "auteur": "Mme Kadi",
+        "annee": 2024,
+        "type": "td",
+        "liked": true
+      }
+    ],
+    "examens": [
+      {
+        "title": "Examen 2023 - Algorithmique et programmation",
+        "auteur": "Département ISI",
+        "annee": 2023,
+        "type": "examen",
+        "liked": false
+      },
+      {
+        "title": "Examen 2024 - Systèmes d'exploitation",
+        "auteur": "Département ISI",
+        "annee": 2024,
+        "type": "examen",
+        "liked": false
+      }
+    ],
+    "livres": [
+      {
+        "title": "Apprendre React.js",
+        "auteur": "Open Source Press",
+        "annee": 2023,
+        "type": "livre",
+        "liked": true
+      },
+      {
+        "title": "Maîtriser Python pour la Data Science",
+        "auteur": "O’Reilly",
+        "annee": 2024,
+        "type": "livre",
+        "liked": false
+      }
+    ],
+    "tutos": [
+      {
+        "name": "Déployer une API Node.js sur Render",
+        "auteur": "MicraV Dev Team",
+        "domaine": "Déploiement Web",
+        "url": "/src/assets/img/render_tuto.png"
+      },
+      {
+        "name": "Créer un modèle IA simple avec TensorFlow",
+        "auteur": "Etudiant ISI",
+        "domaine": "IA & Deep Learning",
+        "url": "/src/assets/img/tensorflow_tuto.png"
+      }
+    ]
+  }
+}

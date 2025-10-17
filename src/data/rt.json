@@ -1,0 +1,97 @@
+{
+  "classe": "ISI",
+  "repertoires": [
+    {
+      "header": { "name": "Cours", "icon": "BookIcon" },
+      "contents": [
+        { "count": 320, "name": "Modules" },
+        { "count": 210, "name": "Matières" },
+        { "count": 80, "name": "Enseignants" }
+      ]
+    },
+    {
+      "header": { "name": "TD & TP", "icon": "TDIcon" },
+      "contents": [
+        { "count": 620, "name": "Exercices" },
+        { "count": 300, "name": "Corrections" },
+        { "count": 120, "name": "Travaux Pratiques" }
+      ]
+    },
+    {
+      "header": { "name": "Examens", "icon": "FolderIcon" },
+      "contents": [
+        { "count": 250, "name": "Sujets de devoir" },
+        { "count": 180, "name": "Corrections" },
+        { "count": 95, "name": "Livres de référence" }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Programmation C++ avancée",
+      "type": "cours",
+      "annee": 2025,
+      "liked": true
+    },
+    {
+      "title": "Développement Mobile avec Kotlin",
+      "type": "livre",
+      "annee": 2024,
+      "liked": false
+    },
+    {
+      "title": "Systèmes d'exploitation UNIX",
+      "type": "cours",
+      "annee": 2023,
+      "liked": true
+    },
+    {
+      "title": "Algorithmique et structures de données",
+      "type": "cours",
+      "annee": 2022,
+      "liked": false
+    }
+  ],
+  "projets": {
+    "tutores": [
+      {
+        "name": "E-Santé 4.0",
+        "auteur": "Ouattara Mariam",
+        "domaine": "Intelligence Artificielle",
+        "url": "/src/assets/img/esante.png"
+      },
+      {
+        "name": "MaMoyenne",
+        "auteur": "Kouadio Armel",
+        "domaine": "Développement Mobile",
+        "url": "/src/assets/img/mamoyenne.png"
+      },
+      {
+        "name": "MicraV Admin",
+        "auteur": "Sawadogo H.",
+        "domaine": "Web",
+        "url": "/src/assets/img/micrav_admin.png"
+      }
+    ],
+    "opensource": [
+      {
+        "name": "MicraVision",
+        "auteur": "Équipe ISI Dev",
+        "domaine": "Éducation",
+        "url": "/src/assets/img/micravision.png"
+      },
+      {
+        "name": "AgriNova",
+        "auteur": "Traoré M.",
+        "domaine": "Agritech",
+        "url": "/src/assets/img/agri.png"
+      },
+      {
+        "name": "E-Santé Open API",
+        "auteur": "Collectif ISI 3A",
+        "domaine": "Santé publique",
+        "url": "/src/assets/img/esante_api.png"
+      }
+    ]
+  }
+}
