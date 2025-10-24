@@ -1,0 +1,328 @@
+{
+  "classe": "RT",
+  "repertoires": [
+    {
+      "header": { "name": "Cours", "icon": "BookIcon" },
+      "contents": [
+        { "count": 300, "name": "Modules" },
+        { "count": 200, "name": "Matières" },
+        { "count": 75, "name": "Enseignants" }
+      ]
+    },
+    {
+      "header": { "name": "TD & TP", "icon": "TDIcon" },
+      "contents": [
+        { "count": 580, "name": "Exercices" },
+        { "count": 290, "name": "Corrections" },
+        { "count": 115, "name": "Travaux Pratiques" }
+      ]
+    },
+    {
+      "header": { "name": "Examens", "icon": "FolderIcon" },
+      "contents": [
+        { "count": 240, "name": "Sujets de devoir" },
+        { "count": 170, "name": "Corrections" },
+        { "count": 90, "name": "Livres de référence" }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Réseaux 5G avancés",
+      "type": "cours",
+      "annee": 2025,
+      "liked": false
+    },
+    {
+      "title": "Sécurité des réseaux",
+      "type": "livre",
+      "annee": 2024,
+      "liked": true
+    },
+    {
+      "title": "Télécommunications optiques",
+      "type": "cours",
+      "annee": 2023,
+      "liked": false
+    },
+    {
+      "title": "Protocoles Internet",
+      "type": "cours",
+      "annee": 2022,
+      "liked": true
+    },
+    {
+      "title": "Réseaux sans fil",
+      "type": "cours",
+      "annee": 2025,
+      "liked": false
+    },
+    {
+      "title": "Cryptographie appliquée",
+      "type": "livre",
+      "annee": 2024,
+      "liked": true
+    },
+    {
+      "title": "IoT et réseaux",
+      "type": "cours",
+      "annee": 2023,
+      "liked": false
+    }
+  ],
+  "projets": {
+    "tutores": [
+      {
+        "name": "Système de monitoring réseau",
+        "auteur": "Ouattara Mariam",
+        "domaine": "Réseaux",
+        "url": "/src/assets/img/bckg.png"
+      },
+      {
+        "name": "Firewall avancé",
+        "auteur": "Kouadio Armel",
+        "domaine": "Sécurité",
+        "url": "/src/assets/img/bckg.png"
+      },
+      {
+        "name": "Optimisation de bande passante",
+        "auteur": "Sawadogo H.",
+        "domaine": "Télécoms",
+        "url": "/src/assets/img/bckg.png"
+      },
+      {
+        "name": "VPN personnalisé",
+        "auteur": "Traore I.",
+        "domaine": "Sécurité",
+        "url": "/src/assets/img/bckg.png"
+      },
+      {
+        "name": "Réseau SDN",
+        "auteur": "Koffi J.",
+        "domaine": "Réseaux définis par logiciel",
+        "url": "/src/assets/img/bckg.png"
+      }
+    ],
+    "opensource": [
+      {
+        "name": "OpenRT Network Simulator",
+        "auteur": "Équipe RT Dev",
+        "domaine": "Simulation",
+        "url": "/src/assets/img/bckg.png"
+      },
+      {
+        "name": "SecureCom Protocol",
+        "auteur": "Traoré M.",
+        "domaine": "Protocoles sécurisés",
+        "url": "/src/assets/img/bckg.png"
+      },
+      {
+        "name": "5G Open Source Stack",
+        "auteur": "Collectif RT 3A",
+        "domaine": "Télécoms 5G",
+        "url": "/src/assets/img/bckg.png"
+      },
+      {
+        "name": "Network Analyzer Tool",
+        "auteur": "N'Guessan L.",
+        "domaine": "Analyse réseau",
+        "url": "/src/assets/img/bckg.png"
+      },
+      {
+        "name": "Wireless Sensor Network",
+        "auteur": "Diaby M.",
+        "domaine": "Réseaux sans fil",
+        "url": "/src/assets/img/bckg.png"
+      }
+    ]
+  },
+  "bibliotheque": {
+    "cours": [
+      {
+        "title": "Introduction aux réseaux",
+        "auteur": "M. Laurent",
+        "annee": 2023,
+        "type": "cours",
+        "liked": false
+      },
+      {
+        "title": "Protocoles TCP/IP",
+        "auteur": "Mme Moreau",
+        "annee": 2024,
+        "type": "cours",
+        "liked": true
+      },
+      {
+        "title": "Sécurité informatique",
+        "auteur": "M. Leclerc",
+        "annee": 2022,
+        "type": "cours",
+        "liked": false
+      },
+      {
+        "title": "Télécommunications mobiles",
+        "auteur": "Mme Roux",
+        "annee": 2025,
+        "type": "cours",
+        "liked": true
+      },
+      {
+        "title": "Réseaux optiques",
+        "auteur": "M. Girard",
+        "annee": 2023,
+        "type": "cours",
+        "liked": false
+      },
+      {
+        "title": "Cloud computing",
+        "auteur": "Mme Lambert",
+        "annee": 2024,
+        "type": "cours",
+        "liked": true
+      }
+    ],
+    "tdtp": [
+      {
+        "title": "TP - Configuration d'un routeur Cisco",
+        "auteur": "M. Laurent",
+        "annee": 2023,
+        "type": "tp",
+        "liked": false
+      },
+      {
+        "title": "TD - Exercice sur les protocoles de routage",
+        "auteur": "Mme Moreau",
+        "annee": 2024,
+        "type": "td",
+        "liked": true
+      },
+      {
+        "title": "TP - Simulation de réseaux avec NS3",
+        "auteur": "M. Leclerc",
+        "annee": 2022,
+        "type": "tp",
+        "liked": false
+      },
+      {
+        "title": "TD - Cryptographie symétrique",
+        "auteur": "Mme Roux",
+        "annee": 2025,
+        "type": "td",
+        "liked": true
+      },
+      {
+        "title": "TP - Mise en place d'un VPN",
+        "auteur": "M. Girard",
+        "annee": 2023,
+        "type": "tp",
+        "liked": false
+      }
+    ],
+    "examens": [
+      {
+        "title": "Examen 2023 - Réseaux",
+        "auteur": "Département RT",
+        "annee": 2023,
+        "type": "examen",
+        "liked": false
+      },
+      {
+        "title": "Examen 2024 - Sécurité",
+        "auteur": "Département RT",
+        "annee": 2024,
+        "type": "examen",
+        "liked": false
+      },
+      {
+        "title": "Examen 2022 - Télécoms",
+        "auteur": "Département RT",
+        "annee": 2022,
+        "type": "examen",
+        "liked": true
+      },
+      {
+        "title": "Examen 2025 - Cloud",
+        "auteur": "Département RT",
+        "annee": 2025,
+        "type": "examen",
+        "liked": false
+      },
+      {
+        "title": "Examen 2023 - Protocoles",
+        "auteur": "Département RT",
+        "annee": 2023,
+        "type": "examen",
+        "liked": true
+      }
+    ],
+    "livres": [
+      {
+        "title": "Computer Networking: A Top-Down Approach",
+        "auteur": "James Kurose",
+        "annee": 2020,
+        "type": "livre",
+        "liked": true
+      },
+      {
+        "title": "Cryptography and Network Security",
+        "auteur": "William Stallings",
+        "annee": 2016,
+        "type": "livre",
+        "liked": false
+      },
+      {
+        "title": "Wireless Communications",
+        "auteur": "Andrea Goldsmith",
+        "annee": 2005,
+        "type": "livre",
+        "liked": true
+      },
+      {
+        "title": "Cloud Computing: Concepts",
+        "auteur": "Thomas Erl",
+        "annee": 2013,
+        "type": "livre",
+        "liked": false
+      },
+      {
+        "title": "5G NR: The Next Generation Wireless Access Technology",
+        "auteur": "Erik Dahlman",
+        "annee": 2018,
+        "type": "livre",
+        "liked": true
+      }
+    ],
+    "tutos": [
+      {
+        "name": "Wireshark pour l'analyse réseau",
+        "auteur": "Equipe RT",
+        "domaine": "Analyse",
+        "url": "/src/assets/img/bckg.png"
+      },
+      {
+        "name": "Configuration Cisco IOS",
+        "auteur": "Soro A.",
+        "domaine": "Réseaux",
+        "url": "/src/assets/img/bckg.png"
+      },
+      {
+        "name": "OpenVPN setup",
+        "auteur": "Kone B.",
+        "domaine": "Sécurité",
+        "url": "/src/assets/img/bckg.png"
+      },
+      {
+        "name": "5G fundamentals",
+        "auteur": "Diaby C.",
+        "domaine": "Télécoms",
+        "url": "/src/assets/img/bckg.png"
+      },
+      {
+        "name": "AWS Cloudformation",
+        "auteur": "Ouattara D.",
+        "domaine": "Cloud",
+        "url": "/src/assets/img/bckg.png"
+      }
+    ]
+  }
+}
